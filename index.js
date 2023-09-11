@@ -14,7 +14,9 @@ const getCurrentDayOfTheWeek = () => {
     "saturday",
   ]
   const nowIndex = date.getDay();
+  console.log(nowIndex);
   const curr = daysOfTheWeek[nowIndex];
+  console.log(curr);
   currentDay.innerText = curr;
 };
 
